@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+    <meta name="theme-color" content="#E6EDF6" />
+    <title>Smart Banking Assistant — Powered by BANKO</title>
+    <meta
+      name="description"
+      content="Smart Banking Assistant — Powered by BANKO. An intelligent banking platform developed by MLRIT students."
+    />
+    <meta property="og:title" content="Smart Banking Assistant — Powered by BANKO" />
+    <meta
+      property="og:description"
+      content="Smart Banking Assistant — Powered by BANKO. An intelligent banking platform developed by MLRIT students."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=block" rel="stylesheet" />
+    <script>
+      (function () {
+        var d = document.documentElement;
+        if (!('animate' in Element.prototype)) return;
+        if (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+        d.classList.add('pre');
+        setTimeout(function () {
+          d.classList.remove('pre');
+        }, 4000);
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
